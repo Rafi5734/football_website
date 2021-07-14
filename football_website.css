@@ -1,0 +1,371 @@
+/*---------------------- font awesome cdn ----------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*-------------------- common styles --------------------*/
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+}
+
+/*--------------------------------
+       start section-1     
+--------------------------------*/
+
+.section-1 {
+    width: 100%;
+    height: 75vh;
+    background-color: #2d25ad;
+}
+.section-1-article {
+    display: flex;
+}
+.article-header {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.article-title {
+    width: 40rem;
+    margin-top: 20rem;
+    font-size: 5rem;
+    color: #fff;
+    transition: color 0.5s;
+}
+.section-1-btn {
+    width: 16rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: -24rem;
+    color: #fff;
+    background-color: #e02c6d;
+    border: none;
+    transition: background-color 0.5s, color 0.5s 0.5s;
+    cursor: pointer;
+}
+
+/***************************************************
+      section-1 hover effect
+***************************************************/
+.article-title:hover {
+    color: aqua;
+}
+
+.section-1-btn:hover {
+    background-color: aqua;
+    color: #000;
+}
+/*************************end hover effect******************/
+.article-img {
+    width: 50%;
+}
+.banner-img {
+    width: 56.6rem;
+    height: 43.8rem;
+    position: relative;
+    top: 15rem;
+}
+/*--------------------------------
+       end section-1     
+--------------------------------*/
+
+/*--------------------------------
+       start section-2   
+--------------------------------*/
+.section-2 {
+    width: 100%;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2-player-list {
+}
+.all-players-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+.player-list {
+    width: 33rem;
+    height: 47.4rem;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+.player-name {
+    font-size: 3rem;
+}
+.player-img {
+    width: 30rem;
+    height: 25.6rem;
+}
+.player-description {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    color: #6c6c6c;
+}
+/*--------------------------------
+       end section-2     
+--------------------------------*/
+
+/*--------------------------------
+       start section-3     
+--------------------------------*/
+
+.section-3 {
+    width: 100%;
+    height: 70vh;
+}
+.final-match-review {
+    display: flex;
+}
+.match-review-video {
+    width: 50%;
+}
+.match-video {
+    width: 50rem;
+    height: 30rem;
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+.match-review-description {
+    width: 30%;
+    position: relative;
+    top: 8rem;
+    left: 10%;
+}
+.final-match-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.match-description {
+    font-size: 1.4rem;
+    color: #6c6c6c;
+    margin-bottom: 1rem;
+}
+.final-mattch-btn {
+    width: 16rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #e02c6d;
+    border: none;
+    cursor: pointer;
+}
+/*--------------------------------
+       end section-3     
+--------------------------------*/
+
+/*--------------------------------
+       Start section-4     
+--------------------------------*/
+.section-4 {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-4-match-list {
+    margin-top: -31rem;
+}
+.all-matches-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+.match-list {
+    width: 33rem;
+    height: 47.4rem;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+.match-name {
+    font-size: 3rem;
+}
+.match-img {
+    width: 30rem;
+    height: 25.6rem;
+}
+.match-description {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    color: #6c6c6c;
+}
+/*--------------------------------
+       end section-4     
+--------------------------------*/
+/*--------------------------------
+       start footer section     
+--------------------------------*/
+.footer-section {
+    width: 100%;
+    height: 20vh;
+}
+.footer-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20rem;
+}
+.footer-img {
+    width: 30%;
+}
+/*
+.footer-icons i {
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+*/
+.footer-icons a {
+    font-size: 2.6rem;
+    margin: 0 1rem 0 0;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: color 0.5s, transform 1s;
+}
+/********************** footer icon hover effect *************************/
+
+.footer-icons a:hover {
+    color: #673ab7;
+    transform: rotate(360deg);
+}
+
+.footer-copyright {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+/*--------------------------------
+       end footer section     
+--------------------------------*/
+
+/****************************************************************
+            responsive design
+****************************************************************/
+
+@media only screen and (max-width: 1180px) {
+    .article-title {
+        margin-top: 15rem;
+    }
+    .banner-img {
+        margin-top: -10rem;
+    }
+    .section-2-player-list {
+        margin-top: 28rem;
+    }
+    .section-3 {
+        margin-top: 20rem;
+    }
+    .final-match-review {
+        margin-top: 3rem;
+    }
+    .final-match-heading {
+        margin-top: 4rem;
+    }
+    .section-4 {
+        margin-top: 28rem;
+    }
+    .footer-section {
+        margin-top: 7rem;
+    }
+    .footer-copyright {
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 688px) {
+    .section-1 {
+        width: 100%;
+        height: 120vh;
+    }
+    .section-1-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .article-title {
+        margin-top: 5rem;
+    }
+    .banner-img {
+        width: 150%;
+        margin-top: -12rem;
+        position: relative;
+        right: 10rem;
+    }
+    .all-players-list {
+        margin-top: 305rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-3 {
+        margin-top: 335rem;
+    }
+    .final-match-review {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .match-video {
+        margin-left: -14rem;
+    }
+    .match-review-description {
+        width: 80%;
+        text-align: center;
+        margin-top: -6rem;
+        margin-left: -10rem;
+    }
+    .section-4 {
+        margin-top: 40rem;
+    }
+    .all-matches-list {
+        margin-top: 200rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-section {
+        margin-top: 210rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .section-1 {
+        width: 100%;
+        height: 110vh;
+    }
+    .article-title {
+        font-size: 4rem;
+    }
+    .section-1-btn {
+        width: 10rem;
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+    .match-video {
+        width: 41rem;
+    }
+    .banner-img {
+        width: 168%;
+    }
+    .section-4 {
+        margin-top: 50rem;
+    }
+}
